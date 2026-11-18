@@ -1,0 +1,26 @@
+name: 功能建议
+description: 想要一个新功能，或觉得某处可以更好用。
+title: "[建议] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你在什么场景下需要它
+      description: 先说场景，再说功能，更容易判断要不要做。
+      placeholder: 例如：每周日想回顾这周完成了哪些行动。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 你希望它怎么用
+    validations:
+      required: true
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: 请确认符合本项目的取舍
+      options:
+        - label: 这个功能可以在纯本地、单文件、无后端的前提下实现
+          required: true

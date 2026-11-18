@@ -1,0 +1,43 @@
+name: 问题反馈
+description: 遇到 bug 或使用上的问题，请在这里说明。
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！如果是数据相关的问题，**请不要贴出真实备份内容**，脱敏后再贴。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么
+      description: 期望看到什么、实际看到什么。
+      placeholder: 例如：点击「开始专注」后计时没有开始。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开页面
+        2. 点击 …
+        3. 看到 …
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器与系统
+      placeholder: 例如 Chrome 131 / Windows 11
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: 在哪使用的
+      options:
+        - 在线版（GitHub Pages）
+        - 本地版（双击 index.html）
+    validations:
+      required: true
