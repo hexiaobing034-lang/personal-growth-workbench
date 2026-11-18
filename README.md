@@ -2,10 +2,8 @@
 
 > 把一个大方向拆成「下一件事」；把今天安排好；把重要日子记牢。
 > 整个工作台只有一个 HTML 文件：**不用安装、不用注册、不用联网，双击就能用**。
-
-![License](https://img.shields.io/badge/license-MIT-71816d)
-![单文件](https://img.shields.io/badge/build-零依赖-b9785d)
-![离线可用](https://img.shields.io/badge/离线-可用-71816d)
+>
+> 单文件 · 零依赖 · 离线可用 · MIT
 
 **[▶ 在线体验](https://hexiaobing034-lang.github.io/personal-growth-workbench/)** ｜ [本地使用方法](使用说明.md) ｜ [更新记录](CHANGELOG.md)
 
